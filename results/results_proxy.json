@@ -1,0 +1,30 @@
+{
+  "proxy_auc": {
+    "logit": [
+      0.7490515512515876,
+      0.0033956005397523985
+    ],
+    "gbm": [
+      0.786412283096238,
+      0.0052396123738166645
+    ]
+  },
+  "proxy_importance": {
+    "LicAge": 0.0844,
+    "VehPrice": 0.0595,
+    "DrivAge": 0.0518,
+    "RiskVar": 0.0314,
+    "VehClass": 0.0253,
+    "VehMaxSpeed": 0.0231,
+    "VehBody": 0.0189,
+    "VehUsage": 0.017,
+    "SocioGrp": 0.0126,
+    "BonusMalus": 0.0124,
+    "MariStat": 0.011,
+    "VehAge": 0.0096,
+    "VehEnergy": 0.0051,
+    "VehEngine": 0.0045,
+    "HasKmLimit": 0.0037,
+    "Garage": 0.0025
+  }
+}

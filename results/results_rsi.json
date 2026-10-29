@@ -1,0 +1,179 @@
+{
+  "dimensions": [
+    "Legal nature",
+    "Scope & risk tiering",
+    "Accountability & governance",
+    "Fairness & non-discrimination",
+    "Transparency & explainability",
+    "Oversight & assurance"
+  ],
+  "scores": {
+    "IAIS": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "NAIC": [
+      2,
+      2,
+      3,
+      2,
+      2,
+      2
+    ],
+    "EU": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "schemes": {
+    "Equal weights": {
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": 18.0,
+      "totals": {
+        "IAIS": 10.0,
+        "NAIC": 13.0,
+        "EU": 18.0
+      },
+      "pct_of_max": {
+        "IAIS": 55.55555555555556,
+        "NAIC": 72.22222222222223,
+        "EU": 100.0
+      },
+      "ranking": [
+        "EU",
+        "NAIC",
+        "IAIS"
+      ],
+      "gap_NAIC_IAIS_pct": 16.66666666666667,
+      "gap_EU_NAIC_pct": 27.77777777777777
+    },
+    "Substantive x1.5": {
+      "weights": [
+        1.0,
+        1.0,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "max": 24.0,
+      "totals": {
+        "IAIS": 13.5,
+        "NAIC": 17.5,
+        "EU": 24.0
+      },
+      "pct_of_max": {
+        "IAIS": 56.25,
+        "NAIC": 72.91666666666667,
+        "EU": 100.0
+      },
+      "ranking": [
+        "EU",
+        "NAIC",
+        "IAIS"
+      ],
+      "gap_NAIC_IAIS_pct": 16.66666666666667,
+      "gap_EU_NAIC_pct": 27.08333333333333
+    },
+    "Form x1.5": {
+      "weights": [
+        1.5,
+        1.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": 21.0,
+      "totals": {
+        "IAIS": 11.5,
+        "NAIC": 15.0,
+        "EU": 21.0
+      },
+      "pct_of_max": {
+        "IAIS": 54.76190476190476,
+        "NAIC": 71.42857142857143,
+        "EU": 100.0
+      },
+      "ranking": [
+        "EU",
+        "NAIC",
+        "IAIS"
+      ],
+      "gap_NAIC_IAIS_pct": 16.66666666666667,
+      "gap_EU_NAIC_pct": 28.57142857142857
+    },
+    "Fairness & oversight x2": {
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        1.0,
+        2.0
+      ],
+      "max": 24.0,
+      "totals": {
+        "IAIS": 13.0,
+        "NAIC": 17.0,
+        "EU": 24.0
+      },
+      "pct_of_max": {
+        "IAIS": 54.166666666666664,
+        "NAIC": 70.83333333333333,
+        "EU": 100.0
+      },
+      "ranking": [
+        "EU",
+        "NAIC",
+        "IAIS"
+      ],
+      "gap_NAIC_IAIS_pct": 16.666666666666664,
+      "gap_EU_NAIC_pct": 29.16666666666667
+    },
+    "Legal nature excluded": {
+      "weights": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max": 15.0,
+      "totals": {
+        "IAIS": 9.0,
+        "NAIC": 11.0,
+        "EU": 15.0
+      },
+      "pct_of_max": {
+        "IAIS": 60.0,
+        "NAIC": 73.33333333333333,
+        "EU": 100.0
+      },
+      "ranking": [
+        "EU",
+        "NAIC",
+        "IAIS"
+      ],
+      "gap_NAIC_IAIS_pct": 13.333333333333329,
+      "gap_EU_NAIC_pct": 26.66666666666667
+    }
+  },
+  "kappa": null
+}
