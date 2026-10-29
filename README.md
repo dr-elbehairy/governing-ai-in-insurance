@@ -1,4 +1,6 @@
-# Governing AI in Insurance — replication package (v1.0.0)
+# Governing AI in Insurance — replication package
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23766207.svg)](https://doi.org/10.5281/zenodo.23766207)
 
 Code, derived data and results to reproduce the empirical component of
 
@@ -43,4 +45,6 @@ python figures.py
 
 ## Citation and licence
 
-Code: MIT (see `LICENSE`). Data: CASdatasets licence, see above. Please cite the manuscript above when using this package.
+Archived release: Elbehairy, M., & Sharkawy, M. (2026). *governing-ai-in-insurance: Replication package for "Governing AI in Insurance"* (v1.0.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23766207
+
+Code: MIT (see `LICENSE`). Data: CASdatasets licence, see above. Please cite the manuscript and the archived release when using this package.

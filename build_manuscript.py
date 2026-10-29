@@ -414,7 +414,7 @@ P(f"**Inference.** Uncertainty in the indices, the shift shares and the between-
   f"means. Categorical factors, including the counterfactual gender assignments, were encoded with fixed category levels drawn from the full data "
   f"so that the boosted model receives identical codes in training, testing and counterfactual prediction. All computations used Python 3.11 and "
   f"scikit-learn 1.3 (Pedregosa et al., 2011); the code reproducing Tables 6–11 and Figures 3–5, the RSI scoring sheet, the derived data and the "
-  f"environment specification are openly available at {REPO_URL} (release v1.0.0).", indent=True)
+  f"environment specification are openly available at {REPO_URL} and archived at https://doi.org/10.5281/zenodo.23766207 (release v1.0.1).", indent=True)
 # ================================================================== 4 EMPIRICAL ANALYSIS
 H("4.  Empirical Analysis", 1)
 H("4.1  Comparative Regulatory Analysis", 2)
@@ -862,7 +862,7 @@ if not BLIND:
     P("**Data and code availability.** The freMPL1 dataset is openly available in the CASdatasets collection (Dutang & Charpentier, 2020). All code "
       f"required to reproduce Tables 6–11 and Figures 3–5 (numbered scripts 01–06 for data preparation, the index, the three model classes, "
       f"proxy capacity, the bootstrap and robustness checks, and the decomposition and review checks), together with the RSI scoring sheet, the "
-      f"derived data and environment specifications, is openly available at {REPO_URL} (release v1.0.0).", after=3)
+      f"derived data and environment specifications, is openly available at {REPO_URL} and archived at https://doi.org/10.5281/zenodo.23766207 (release v1.0.1).", after=3)
     P("**Funding.** No external funding was received.   **Conflicts of interest.** None.   **Ethics.** The study uses anonymised open data and public regulatory documents; no ethics approval was required.", after=3)
 # ================================================================== REFERENCES
 H("References", 1)
